@@ -53,7 +53,8 @@ void swap_back_node(listint_t **list, listint_t **tail, listint_t **curr)
 }
 
 /**
- * cocktail_sort_list - Sorts a doubly-linked list of integers using cocktail sort
+ * cocktail_sort_list - Sorts a doubly-linked list of
+ * integers using cocktail sort
  *
  * @list: A pointer to the head of a doubly-linked list.
  */

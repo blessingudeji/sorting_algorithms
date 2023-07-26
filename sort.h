@@ -38,5 +38,8 @@ void swap(int *a, int *b);
 void swap_back_node(listint_t **list, listint_t **tail, listint_t **curr);
 void swap_front_node(listint_t **list, listint_t **tail, listint_t **curr);
 void max_heap(int *array, size_t size, size_t first, size_t index);
+void merge(int *array, int *tmp_array, size_t front, size_t mid, size_t back);
+void merge_sort_recursive(int *array, int *tmp_array, size_t front, size_t back);
+
 
 #endif
